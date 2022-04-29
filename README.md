@@ -1,9 +1,8 @@
-# The aims of this project is to make a comparison of activation functions on
-Deep Neural Networks:
+# The aims of this project is to make a comparison of activation functions
 
 # A comparison of Activations Functions  Tanh, Relu, Swish and Mish on Deep Neural Network
 
-# Clone 
+## Clone 
 
 ```
 git clone https://github.com/HabibMbow94/DNN_Activations_Functions.git 
