@@ -56,7 +56,6 @@ $ python3 main.py -ac swish -n 30 -i True
 * activation_functions(x)
 * conv2 = nn.Conv2d(image_side_size, image_side_size,3,2,3)
 * activation_functions(x)
-* max2=nn.MaxPool2d(9)
 * conv3 = nn.Conv2d(image_side_size,2*image_side_size, 3,1,2)
 * activation_functions(x)
 * conv4 = nn.Conv2d(2*image_side_size,2*image_side_size,3,1,1)
