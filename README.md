@@ -39,6 +39,7 @@ $ python3 main.py -ac swish -n 30 -i True
 # Related Papers #
 
 
+* <a href= 'https://arxiv.org/pdf/1803.08375.pdf'> ReLU </a>
 * <a href= 'https://hal.archives-ouvertes.fr/hal-03265059v2/document '> ReLU'(0) </a>
 * <a href= 'https://en.wikipedia.org/wiki/Swish_function '> Swish  </a>
 * <a href= 'https://www.bmvc2020-conference.com/assets/papers/0928.pdf'> Mish</a>
