@@ -28,7 +28,6 @@ def dtanh(x):
 def reLU_f(x):
   relu = torch.tensor(torch.Tensor.where(x>0, x, 0))
   relu.cpu().numpy()
-  # print(relu.dtype)
   return relu
 
 # define the function derivate hyperbolic tangent
