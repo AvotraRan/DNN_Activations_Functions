@@ -34,8 +34,9 @@ $ python3 main.py -ac swish -n 30 -i True
 
 # Related Papers #
 
-* <a href= 'https://arxiv.org/pdf/1512.03385.pdf'> Resnet </a>
-* <a href= 'https://cs.nju.edu.cn/wujx/paper/CNN.pdf'> Convolutional neural networks</a>
+* <a href= 'https://hal.archives-ouvertes.fr/hal-03265059v2/document '> ReLU'(0) </a>
+* <a href= 'https://en.wikipedia.org/wiki/Swish_function '> Swish  </a>
+* <a href= 'https://www.bmvc2020-conference.com/assets/papers/0928.pdf'> Mish</a>
 
 
 
