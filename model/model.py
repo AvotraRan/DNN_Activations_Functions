@@ -9,7 +9,7 @@ class DNN(nn.Module):
 
   def __init__(self, image_side_size, num_classes, act_fc, use_pytorch_ac = False, in_channels=1):
     super().__init__()
-    AC = {"tanh" : tanh_f, "swish": swish,"relu":F.relu, "mish": mish}
+    AC = {"tanh" : tanh_f, "swish": swish,"relu":reLU_f, "mish": mish}
     AC_pytorch = {"relu":F.relu, "tanh" : F.tanh, "swish": F.silu, "mish": F.mish}
     self.conv1 = nn.Conv2d(in_channels,image_side_size, 5,2,3)
     self.conv2 = nn.Conv2d(image_side_size, image_side_size,3,2,3)
