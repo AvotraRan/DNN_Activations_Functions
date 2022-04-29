@@ -38,7 +38,8 @@ $ python3 main.py -ac relu -n 30 -i False
 ```
 $ python3 main.py -ac swish -n 30 -i True 
 ```
-
+# Colab link:
+[Click here.](https://colab.research.google.com/drive/1sz9kNF_jA0RTw9HlhTKheNwwWddRBr7u?usp=sharing)
 
 # Related Papers #
 
@@ -52,9 +53,9 @@ $ python3 main.py -ac swish -n 30 -i True
 
 
 
-
-## Contributors
+# Contributors
 <img src="https://avatars.githubusercontent.com/u/98966847?v=4" width="100" height="100"> | <img src="https://avatars.githubusercontent.com/u/72751041?v=4" width="100" height="100"> | <img src="https://avatars.githubusercontent.com/u/98966969?v=4" width="100" height="100"> | <img src="https://avatars.githubusercontent.com/u/99017712?v=4" width="100" height="100">
 ------|-----|------|------
 [Fenosoa Randrianjatovo](https://github.com/FenosoaRandrianjatovo) | [Habib Mbow](https://github.com/HabibMbow94) | [Santatriniaina Avotra Randrianambinina](https://github.com/AvotraRan) | [Heritiana Daniel Andriasolofo](https://github.com/heritiana-aimsammi-sn2022)
+ 
  
