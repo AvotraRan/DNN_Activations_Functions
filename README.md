@@ -1,4 +1,4 @@
-# The aims of this project is to make a comparison of activation functions on Deep Neural Networks:
+# The aims of this project is to make a comparison of activation functions on Deep Neural Networks 
 
 # Activations Functions on Deep Neural Network
 
