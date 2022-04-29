@@ -1,7 +1,7 @@
 # The aims of this project is to make a comparison of activation functions on
 Deep Neural Networks:
 
-# A comparison of Activations Functions on Deep Neural Network
+# A comparison of Activations Functions  Tanh, Relu, Swish and Mish on Deep Neural Network
 
 
 ## Create virtual environment ##
@@ -21,7 +21,11 @@ To run this, make sure to install all the requirements by:
 ```
 $ pip install -r requirements.txt 
 ```
+## Requirement installations ##
 
+```
+$ python3 main.py --activation mish --num_epochs 30 -- torch_implement False  
+```
 ## Example of running models ##
 ```
 $ python3 main.py -ac relu -n 30 -i False  
