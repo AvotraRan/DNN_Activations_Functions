@@ -5,8 +5,9 @@ Deep Neural Networks:
 
 # Clone 
 
-git clone ssh://john@example.com/path/to/my-project.git 
-cd my-project  
+```
+git clone https://github.com/HabibMbow94/DNN_Activations_Functions.git 
+```
 ## Create virtual environment ##
 
 ```
