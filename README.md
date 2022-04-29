@@ -3,12 +3,10 @@ Deep Neural Networks:
 
 # A comparison of Activations Functions  Tanh, Relu, Swish and Mish on Deep Neural Network
 
-# Run the project
+# Clone 
 
-git config --global user.name "example_user_name"
-
-git config --global user.email "example@gmail.com"
-
+git clone ssh://john@example.com/path/to/my-project.git 
+cd my-project  
 ## Create virtual environment ##
 
 ```
