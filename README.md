@@ -21,7 +21,7 @@ To run this, make sure to install all the requirements by:
 ```
 $ pip install -r requirements.txt 
 ```
-## Requirement installations ##
+## Running models  ##
 
 ```
 $ python3 main.py --activation mish --num_epochs 30 -- torch_implement False  
