@@ -30,3 +30,4 @@ def test(model, data_loader, name_of_ac, use_pytorch):
     
     print(f"Accuracy from {name_of_ac.upper()} activation function "+ ("using" if use_pytorch else "without" )+ f" pytorch implementation : {correct} / {len(data_loader.dataset)} ({percent:.0f}%)")
     print("\n"*3)
+    
