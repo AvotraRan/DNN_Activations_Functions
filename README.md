@@ -1,5 +1,6 @@
 # The aims of this project is to make a comparison of activation functions
- A comparison of Activations Functions  Tanh, Relu, Swish and Mish on Deep Neural Network
+
+# A comparison of Activations Functions  Tanh, Relu, Swish and Mish on Deep Neural Network
 
 ## Clone 
 
@@ -47,7 +48,22 @@ $ python3 main.py -ac swish -n 30 -i True
 * <a href= 'https://en.wikipedia.org/wiki/Swish_function '> Swish  </a>
 * <a href= 'https://www.bmvc2020-conference.com/assets/papers/0928.pdf'> Mish</a>
 
-
+#  Structures of the Networks  #
+* AC = {"relu":reLU_f, "tanh" : tanh_f, "swish": swish, "mish": mish}
+* AC_pytorch = {"relu": relu, "tanh" : F.tanh, "swish": F.silu, "mish": F.mish}
+* activation_functions = AC_pytorch[act_fc] if use_pytorch_ac else AC[act_fc]
+* conv1 = nn.Conv2d(in_channels,image_side_size, 5,2,3)
+* activation_functions(x)
+* conv2 = nn.Conv2d(image_side_size, image_side_size,3,2,3)
+* activation_functions(x)
+* max2=nn.MaxPool2d(9)
+* conv3 = nn.Conv2d(image_side_size,2*image_side_size, 3,1,2)
+* activation_functions(x)
+* conv4 = nn.Conv2d(2*image_side_size,2*image_side_size,3,1,1)
+* activation_functions(x)
+* conv5 = nn.Conv2d(2*image_side_size,1,3,1,0)
+* activation_functions(x)
+* linear = nn.Linear((image_side_size-18)*(image_side_size-18), num_classes)
 
 
 
