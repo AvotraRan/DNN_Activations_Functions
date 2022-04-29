@@ -1,6 +1,6 @@
 # Activations Functions on Deep Neural Network
 
-
+Fenosoa
 
 ## Contributors
 <img src="https://avatars.githubusercontent.com/u/98966847?v=4" width="100" height="100"> | <img src="https://avatars.githubusercontent.com/u/72751041?v=4" width="100" height="100"> | <img src="https://avatars.githubusercontent.com/u/98966969?v=4" width="100" height="100"> | <img src="https://avatars.githubusercontent.com/u/99017712?v=4" width="100" height="100">
